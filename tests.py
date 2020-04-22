@@ -82,7 +82,7 @@ def begin(url):
       driver.execute_script("window.scrollBy(0,110)", "")
       
     driver.close()
-url="https://find.plasticsurgery.org/city/new-york/?page="
+url="TYPE IN REQUIRED EMAIL"
 count=0
 begin(url)
 wb.save('doctors.xls')
